@@ -1,0 +1,14 @@
+/* Wiring up css */
+
+a {
+    text-decoration:none;
+    font-family: Poppins
+}
+
+a:hover {
+    color: red;
+}
+
+.active {
+    color: red;
+}

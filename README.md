@@ -24,4 +24,3 @@ The only other tools involved are Google Fonts and FontAwesome, which are both l
 
 ## CONCEPT
 A prototype can be found on [InVision](https://invis.io/9PN0KSEVCF8#/307597765_v1-Home-1-)
-# vanilla-website
