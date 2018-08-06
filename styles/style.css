@@ -7,3 +7,67 @@ section at a time, so that the only impacted components are
 inside of a single chunk.
 
 */
+
+/* ======================
+       NAVBAR
+========================*/
+.navbar {
+    background-color: black;
+}
+
+.navbar i {
+    margin-right: 5px;
+}
+
+.navbar .navbar-content {
+    justify-content: space-between
+}
+
+.navbar ul {
+    
+}
+
+.navbar ul li {
+    list-style: none;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+}
+
+
+/* ======================
+        HERO
+========================*/
+
+/* ======================
+       CARDS
+========================*/
+
+/* ======================
+       JUMBOTRON
+========================*/
+
+/* ======================
+        SUPPORTING
+========================*/
+
+/* ======================
+       TYPOGRAPHY
+========================*/
+
+/* ======================
+       PAGE-TITLE
+========================*/
+
+/* ======================
+       FORM
+========================*/
+
+/* ======================
+       FOOTER
+========================*/
+
+

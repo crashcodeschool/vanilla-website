@@ -37,6 +37,12 @@ throughout the website.
     font-size: 20px;
 }
 
+.subheading {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+}
+
 
 .body {
     font-family: 'Lato', sans-serif;
@@ -62,6 +68,10 @@ throughout the website.
 
     .headline {
         font-size: 18px;
+    }
+
+    .subheading {
+        font-size: 16px;
     }
 
     .body {
@@ -92,6 +102,16 @@ throughout the website.
     color: #5f697a
 }
 
+
+/* ---- LINKS ----*/
+.active {
+    color: rgba(255,255,255,1)
+}
+
+.inactive {
+    color: rgba(255, 255, 255, 0.5);
+}
+
 /* ----- BACKGROUND COLORS ----- */
 
 .bg-purple {
@@ -112,4 +132,73 @@ throughout the website.
 
 .bg-off-white-2 {
     background-color: #f5f5f5;
+}
+
+
+/* ======================
+    LAYOUT & SPACING
+========================*/
+
+/* flexbox only applies to direct children of an element, so this helper
+class allows us to easily assign display: flex to a parent */
+.flex-wrapper {
+    display: flex;
+}
+
+
+.top {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+
+/* Responsive Containers */
+
+/* Stop expanding at 1440 */
+@media screen and (max-width: 1440px) {
+    .container {
+        max-width: 1024px;
+    }
+}
+
+/* 1280 */
+@media screen and (max-width: 1280px) {
+    .container {
+        max-width: 78%;
+    }
+}
+
+/* 1024 */
+@media screen and (max-width: 10240px) {
+    .container {
+        max-width: 82%
+    }
+}
+
+/* 960 */
+@media screen and (max-width: 960px) {
+    .container {
+        max-width: 86%
+    }
+}
+
+/* 768 */
+@media screen and (max-width: 768px) {
+    .container {
+        max-width: 90%
+    }
+}
+
+/* 600 */
+@media screen and (max-width: 600px) {
+    .container {
+        max-width: 94%
+    }
 }
