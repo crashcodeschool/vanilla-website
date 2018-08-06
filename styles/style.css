@@ -12,7 +12,7 @@ inside of a single chunk.
        NAVBAR
 ========================*/
 .navbar {
-    background-color: black;
+    
 }
 
 .navbar i {
@@ -41,6 +41,26 @@ inside of a single chunk.
 /* ======================
         HERO
 ========================*/
+.hero {
+    width: 100%;
+    background: url('https://i.imgur.com/Cwvepmq.jpg') no-repeat center center;
+    background-size: cover;
+    height: 700px;
+}
+
+.hero .hero-content {
+    padding-top: 50px;
+    text-align: center;
+    width: 60%
+}
+
+@media screen and (max-width: 960px) {
+    .hero .hero-content {
+        width: 85%
+    }
+}
+
+
 
 /* ======================
        CARDS
