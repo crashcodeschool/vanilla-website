@@ -1,14 +1,9 @@
-/* Wiring up css */
+/*
 
-a {
-    text-decoration:none;
-    font-family: Poppins
-}
+This file is where we'll write more component-specific CSS.
+For the sake of keeping organized, every "section" is wrapped
+a specially named div. We start every selector by targeting one
+section at a time, so that the only impacted components are
+inside of a single chunk.
 
-a:hover {
-    color: red;
-}
-
-.active {
-    color: red;
-}
+*/
